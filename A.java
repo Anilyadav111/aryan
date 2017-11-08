@@ -2,8 +2,8 @@ import java.io.*;
 public class FileExample {  
 public static void main(String[] args) {  
     File f=new File("/Users/sonoojaiswal/Documents");  
-    String filenames[]=f.list();  
-    for(String filename:filenames){  
+    String filename[]=f.list();  
+    for(String filename:filename){  
         System.out.println(filename);  
     }  
 }  
